@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "React Weather App",
+    "author": "Abdulsamad",
+    "languages": ["JavaScript", "React", "API"],
+    "description": "A weather application that fetches data from OpenWeather API."
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Website",
+    "author": "Abdulsamad",
+    "languages": ["React", "Bootstrap"],
+    "description": "A personal portfolio showcasing projects and skills."
+  }
+]

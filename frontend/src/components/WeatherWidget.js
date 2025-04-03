@@ -8,13 +8,12 @@ function WeatherWidget() {
     useEffect(() => {
         const fetchWeather = async () => {
             try {
-                const res = await axios.get('http://localhost:5000/api/weather?city=Halifax');
+                const res = await axios.get('https://lab7-backend.onrender.com/api/weather?city=Halifax');
                 setWeather(res.data);
             } catch (err) {
                 setError('Failed to load weather info.');
             }
         };
-
         fetchWeather();
     }, []);
 
